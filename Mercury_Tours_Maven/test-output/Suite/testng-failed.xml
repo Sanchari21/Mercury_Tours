@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="CromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.mercury.tours.CrossBrowser_Example">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.mercury.tours.CrossBrowser_Example -->
+    </classes>
+  </test> <!-- CromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.mercury.tours.CrossBrowser_Example">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.mercury.tours.CrossBrowser_Example -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="5" name="IETest(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.mercury.tours.CrossBrowser_Example">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.mercury.tours.CrossBrowser_Example -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

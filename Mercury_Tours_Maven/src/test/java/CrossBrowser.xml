@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" thread-count="3" parallel="tests">
+  <test name="CromeTest">
+   <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.mercury.tours.CrossBrowser_Example"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="FirefoxTest">
+   <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.mercury.tours.CrossBrowser_Example"/>
+    </classes>
+  </test>
+  
+  <test name="IETest">
+   <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.mercury.tours.CrossBrowser_Example"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
